@@ -5,7 +5,7 @@
 #' young sighted listeners. For each listener, four threshold estimates were derived, '
 #' called th.1, ..., th.4 in the data set. For details, see vignette
 #'
-#' @format A data frame with 98 rows and 25 columns.
+#' @format A data frame with 92 rows and 25 columns.
 #' \describe{
 #'   \item{id}{Participant unique id number}
 #'   \item{th.1}{Intensity discrimination threshold, unit [dB]}
