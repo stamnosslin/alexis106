@@ -1,0 +1,15 @@
+Package: alexis106
+Title: Data from experiment on hearing ability in blind and sighted listeners
+Version: 0.0.0.9000
+Author: Mats Nilsson, mats.nilsson@spsychology.su.se
+Description: This package contains data from an experimnet ALEXIS 106. ALEXIS stands
+  for Auditoy Learning and EXpertISe, and 106 is the number of a specific experiment,
+  the data of which is contained in this package. The experiment measured four basic
+  auditory abilities potentially related to human echolocation in one group of blind
+  listeners and two groups of sighted listeners. Details of the experimental
+  design is given in separate vignettes.
+Depends: R (>= 3.3.3)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
