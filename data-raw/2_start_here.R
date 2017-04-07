@@ -23,7 +23,6 @@ source("./data-raw/1_organize_data.R")
 
 
 # Save data as R object in /R (done automatically by devtools) -----------------
-library(devtools)
 data106 <- d
 devtools::use_data(data106, overwrite = TRUE)
 # ------------------------------------------------------------------------------

@@ -93,6 +93,7 @@ colnames(d) <- dcols
 # Exclude unmatched participants from data frame -------------------------------
 d <- d[d$group != 'unmatched', ]
 d$group <- droplevels(d$group)  # Drop level 'unmatched' from factor
+rownames(d) <- NULL  # Drop rownames
 # ------------------------------------------------------------------------------
 
 
