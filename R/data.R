@@ -9,10 +9,9 @@
 #' \describe{
 #'   \item{id}{Participant unique id number}
 #'   \item{th.1}{Intensity discrimination threshold, unit [dB]}
-#'   \item{th.2}{Threshold related to auto-correletaion detection, unit [dB]}
-#'   \item{th.3}{Threshold related to auto-correletaion discrimination, unit [samples],
-#'               sampling frequency was 96 kHz}
-#'   \item{th.4}{Threshold related to spectral shape: high-frequency bump, unit [dB]}
+#'   \item{th.2}{Time-separation detection, unit [dB]}
+#'   \item{th.3}{Time-separation discrimination, unit [samples], sampling frequency was 96 kHz}
+#'   \item{th.4}{High-frequency detection, unit [dB]}
 #'   \item{group}{Experimental group: blind, sighted-young, sighted-age-matched}
 #'   \item{pairs}{Identifies matched pairs of blind and age-match sighted listeners}
 #'   \item{sex}{Sex of listeners}
