@@ -11,7 +11,7 @@ source('./data-raw/0_get_individual_thresholds.R')
 
 
 # Import background data -------------------------------------------------------
-bg <- read.table("./data-raw/alexis106_background.txt",
+bg <- read.table("./data-raw/alexis106_background_cleaned.txt",
                   header = TRUE, sep = ',', stringsAsFactors = FALSE)
 # ------------------------------------------------------------------------------
 

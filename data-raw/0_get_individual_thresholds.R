@@ -13,8 +13,8 @@ source('./data-raw/staircase_functions.R')  # reversals() to generate threshold 
 
 # Read data ---------------------------------------------------------------------
 # NB: first setwd() to be in package directory alexis 106
-d <- read.delim("./data-raw/alexis106_data_cleaned.txt",
-                 sep = ",", header = TRUE)
+d <- read.table("./data-raw/alexis106_data_cleaned.txt",
+                 sep = ",", comment.char = "#", header = TRUE)
 # ------------------------------------------------------------------------------
 
 
@@ -24,7 +24,7 @@ table(d$id) # number of trials per id
 #-------------------------------------------------------------------------------
 
 
-# Add reversals to data frame, using mntools::reversals() ----------------------
+# Add reversals to data frame, using reversals() ----------------------
 revs <- aggregate(increment ~ session + condition + id, d, reversals)
 d <- d[order(d$session, d$condition, d$id),]  # sort as output of aggregate()
 d$reversals <- unlist(revs$increment)
